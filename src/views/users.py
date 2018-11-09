@@ -1,6 +1,6 @@
 import flask
 
-from appname.models import User
+from src.models import User
 
 app = flask.current_app
 bp = flask.Blueprint('users', __name__)

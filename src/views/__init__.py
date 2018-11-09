@@ -1,4 +1,4 @@
-from appname.views import (
+from src.views import (
     main,
     users
 )

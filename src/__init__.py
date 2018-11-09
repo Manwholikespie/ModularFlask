@@ -2,8 +2,8 @@ import flask
 import logging
 import uuid
 
-from appname.extensions import assets
-from appname.views import register_views
+from src.extensions import assets
+from src.views import register_views
 
 def create_app(config):
     """ Sue app factory. """
