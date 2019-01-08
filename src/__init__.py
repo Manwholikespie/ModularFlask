@@ -1,12 +1,14 @@
-import flask
 import logging
 import uuid
+
+import flask
 
 from src.extensions import assets
 from src.views import register_views
 
+
 def create_app(config):
-    """ Sue app factory. """
+    """ App factory. """
     app = flask.Flask(__name__)
     app.config.from_object(config)
 
